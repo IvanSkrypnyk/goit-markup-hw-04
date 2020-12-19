@@ -659,6 +659,10 @@ img {
   flex-basis: calc(100% / 3 - 30px);
 }
 
+.projecs-list-item .projecs-list-item-link {
+  display: block;
+}
+
 .projecs-list-item-title {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -727,16 +731,3 @@ img {
 }
 
 /*=================PORTFOLIO END======================*/
-
-/*=================BACKDROP======================*/
-
-.backdrop {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-/*=================BACKDROP END======================*/
